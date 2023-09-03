@@ -2,8 +2,11 @@
     background-color: transparent;  
     padding: 0px 20px; 
     background-color: #B43A3A;
-    opacity: 95%;
         
+}
+
+.img-fundo{
+    background-repeat: repeat-x;
 }
 
 .logo
@@ -23,3 +26,30 @@ footer{
 {
     margin-left: auto;
 }
+
+.cabecalho
+{
+    padding: 10px;
+}
+
+.painel
+{
+    border-radius: 10px;
+}
+
+.bg-vermelho
+{
+    background-color: #B43A3A;   
+}
+
+.width-50 {
+    width: 50%;
+}
+
+body
+{
+    background-image: url("../assets/images/bg-primary.jpg");
+    background-repeat: repeat-y;
+    background-size: 100% auto;
+}
+
