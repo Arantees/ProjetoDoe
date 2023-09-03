@@ -1,0 +1,25 @@
+.navbar{
+    background-color: transparent;  
+    padding: 0px 20px; 
+    background-color: #B43A3A;
+    opacity: 95%;
+        
+}
+
+.logo
+{
+    width: 85px;
+}
+
+footer{
+    background-color: #B43A3A;   
+    margin-top: 30px;   
+    height: 60px;
+    color: #FFF;
+    padding: 1%;
+}
+
+.align-right
+{
+    margin-left: auto;
+}
