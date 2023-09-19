@@ -63,3 +63,16 @@ footer{
     background-size: 100% auto;
 }
 
+.link
+{
+    color: #B43A3A;   
+}
+
+.login-panel {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0;
+}
+
