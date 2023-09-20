@@ -64,7 +64,8 @@ footer{
 
 .link
 {
-    color: #B43A3A;   
+    color: #B43A3A;  
+    cursor: pointer;
 }
 
 .login-panel {
