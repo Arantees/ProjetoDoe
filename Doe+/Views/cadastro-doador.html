@@ -113,9 +113,15 @@
                     <input type="text" class="form-control" placeholder="Bairro" id="bairro">
                     <label for="bairro">Bairro</label>
                 </div>
-                <div class="form-floating mb-3">
-                    <input type="text" class="form-control" placeholder="Complemento" id="complemento">
-                    <label for="complemento">Complemento</label>
+                <div class="d-flex inline">
+                    <div class="form-floating mb-3 col-4">
+                        <input type="number" class="form-control" placeholder="Número" id="numero">
+                        <label for="numero">Número</label>
+                    </div>
+                    <div class="form-floating mb-3 col-8">
+                        <input type="text" class="form-control" placeholder="Complemento" id="complemento">
+                        <label for="complemento">Complemento</label>
+                    </div>
                 </div>
                 <div class="form-floating mb-3">
                     <input type="text" class="form-control" placeholder="Usuário" id="usuario">
@@ -132,7 +138,7 @@
                     </div>
                 </div>
             </div>     
-            <div class="mt-2" style="text-align: right;">
+            <div class="" style="text-align: right;">
                 <a class="btn btn-danger bg-vermelho col-3 p-2" onclick="cadastrar()">Cadastrar</a>
                 <!--<button type="submit" onclick="cadastrar()" class="col-3 btn btn-danger p-2 bg-vermelho">Cadastrar</button> -->
             </div>       
