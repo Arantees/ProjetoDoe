@@ -53,57 +53,36 @@
                     </div>                 
                 </div>
                 <div class="col-6">
-                    <div class="form-floating mt-3 mb-3">
-                        <input type="text" class="form-control" placeholder="CEP" id="cep">
-                        <label for="cep">CEP</label>
+                    <div class="d-flex inline">
+                        <div class="form-floating col-3 mt-3 mb-3">
+                            <input type="text" maxlength="9" onblur="pesquisacep(this.value)" class="form-control" placeholder="CEP" id="cep">
+                            <label for="cep">CEP</label>
+                        </div>
+                        <div class="form-floating col-9 mt-3 mb-3">
+                            <input type="text" readonly class="form-control" placeholder="Rua" id="rua">
+                            <label for="rua">Rua</label>
+                        </div>
                     </div>
                     <div class="d-flex inline">    
-                        <div class="form-floating mb-3 col-8">                        
-                            <input type="text" class="form-control" placeholder="Cidade" id="cidade">
+                        <div class="form-floating mb-3 col-9">                        
+                            <input type="text" readonly class="form-control" placeholder="Cidade" id="cidade">
                             <label for="cidade">Cidade</label>
                         </div>        
-                        <div class="mb-3 col-4 form-floating">                        
-                            <select class="form-select" id="UF">
-                                <option selected>SP</option>
-                                <option value="AL">AL</option>
-                                <option value="AP">AP</option>
-                                <option value="AM">AM</option>
-                                <option value="BA">BA</option>
-                                <option value="CE">CE</option>
-                                <option value="DF">DF</option>
-                                <option value="ES">ES</option>
-                                <option value="GO">GO</option>
-                                <option value="MA">MA</option>
-                                <option value="MT">MT</option>
-                                <option value="MS">MS</option>
-                                <option value="MG">MG</option>
-                                <option value="PA">PA</option>
-                                <option value="PB">PB</option>
-                                <option value="PR">PR</option>
-                                <option value="PE">PE</option>
-                                <option value="PI">PI</option>
-                                <option value="RJ">RJ</option>
-                                <option value="RN">RN</option>
-                                <option value="RS">RS</option>
-                                <option value="RO">RO</option>
-                                <option value="RR">RR</option>
-                                <option value="SC">SC</option>
-                                <option value="SE">SE</option>
-                                <option value="TO">TO</option>
-                            </select>
-                            <label for="UF">UF</label>
-                        </div>  
+                        <div class="form-floating mb-3 col-3">                        
+                            <input type="text" readonly class="form-control" placeholder="Estado" id="UF">
+                            <label for="UF">Estado</label>
+                        </div>   
                     </div>
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control" placeholder="Bairro" id="bairro">
+                        <input type="text" readonly class="form-control" placeholder="Bairro" id="bairro">
                         <label for="bairro">Bairro</label>
                     </div>
                     <div class="d-flex inline">
-                        <div class="form-floating mb-3 col-4">
+                        <div class="form-floating mb-3 col-3">
                             <input type="number" class="form-control" placeholder="Número" id="numero">
                             <label for="numero">Número</label>
                         </div>
-                        <div class="form-floating mb-3 col-8">
+                        <div class="form-floating mb-3 col-9">
                             <input type="text" class="form-control" placeholder="Complemento" id="complemento">
                             <label for="complemento">Complemento</label>
                         </div>
@@ -136,6 +115,6 @@
         </p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="../js/cadastro-banco.js"></script>
+    <script src="../js/cadastro.js"></script>
 </body>
 </html>
