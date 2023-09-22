@@ -42,6 +42,7 @@ function cadastrarDoador() {
     });
 }
 
+// FUNÇÕES PARA BUSCAR CEP
 function pesquisacep(valor) {
 
     //Nova variável "cep" somente com dígitos.
@@ -89,6 +90,7 @@ function limpa_formulário_cep() {
     document.getElementById('cidade').value=("");
     document.getElementById('UF').value=("");
 }
+
 function meu_callback(conteudo) {
     if (!("erro" in conteudo)) {
         //Atualiza os campos com os valores.
