@@ -1,5 +1,4 @@
 <?php
-
 class Endereco
 {
     private int $id;
@@ -10,8 +9,6 @@ class Endereco
     private string $cep;
     private string $UF;
     private string $complemento;
-    private ?int $doadorId = null;
-    private ?int $bancoDeSangueId = null;
 
      public function getId(): int {
         return $this->id;
@@ -19,22 +16,6 @@ class Endereco
 
     public function setId(int $id) {
         $this->id = $id;
-    }
-
-    public function getMedicoId() : ?int {
-        return $this->medicoId;
-    }
-
-    public function setMedicoId(int $id) {
-        $this->medicoId = $id;
-    }
-
-    public function getPacienteId() : ?int {
-        return $this->pacienteId;
-    }
-
-    public function setPacienteId(int $id) {
-        $this->pacienteId = $id;
     }
 
     public function getLogradouro(): string {

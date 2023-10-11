@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../assets/logo.png" type="image/x-icon" />
+    <title>Doe+</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="fixed-top navbar navbar-expand-md navbar-dark mb-5">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <h1 class="m-0">
+              <img
+                class="logo d-block"
+                src="../assets/logo.png"
+                alt="Logo da app doe+"
+              />
+            </h1>
+          </a>
+          <button
+            class="navbar-toggler align-right"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav align-right">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#sobre"
+                  >Sobre Doe+</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#info">Seja um doador</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#beneficios">Benefícios</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="btn btn-outline-light rounded-0"
+                  href="login.html"
+                  type="submit"
+                  >Entrar</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="img-panel mt-5">
+      <img
+        class="img-fluid img-fundo mt-3"
+        src="../assets/background/inicial.png"
+      />
+    </div>
+    <section class="container-fluid content p-5">
+      <article id="sobre" class="mb-5">
+        <div class="card text-white bg-vermelho mt-5 mb-5">
+          <div class="card-header text-center">
+            <h1 class="fs-1">O Projeto Doe+</h1>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Projeto Integrador Multidisciplinar</h5>
+            <p class="card-text">
+              Este projeto tem por objetivo o cumprimento do requisito acadêmico
+              das disciplinas de Engenharia de Software II, Bando de Dados
+              Relacionais e Desenvolvimento WEB II da
+              <b>Faculdade de Tecnologia de Araras</b>
+            </p>
+
+            <h5 class="card-title">Objeto de estudo</h5>
+            <p class="card-text">
+              Observando atentamente o conjunto de Objetivos de Desenvolvimento
+              Sustentável (ODS) no Brasil, dispostos pela conferência mundial da
+              Organização das Nações Unidas (ONU), no que tange ao Objetivo nº
+              3, que trata sobre Saúde e Bem-Estar, foi idealizado o Projeto
+              Doe+.
+            </p>
+
+            <h5 class="card-title">Objetivo social</h5>
+            <p class="card-text">
+              O projeto tem como principal objetivo incentivar pessoas a doarem
+              sangue, apresentando informações relevantes que muitas vezes não
+              são divulgadas de maneira adequada na sociedade, trazendo maior
+              interesse e empatia social, bem como incentivar ainda mais os que
+              já são doadores, trazendo ferramentas que facilitem sua
+              contribuição, como localizar bases de sangue caso esteja em outra
+              cidade, fornecendo os horários de atendimento da unidade, bem como
+              um pré-agendamento.
+              <br />
+              Além das funcionalidades reservadas para os doadores, as entidades
+              que administram os bancos de sangue também participam, preparando
+              suas demandas com base nos pré-agendamentos, bem como enviando
+              sinais indicando de qual tipo sanguíneo estão mais carentes no aos
+              doadores compatíveis, entre outras funcionalidades!
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <div id="info" class="mt-5">
+        <div class="bg-vermelho painel mt-5">
+          <div class="cabecalho mt-5" style="color: #fff">
+            <h2 class="fs-1 text-center">Seja um doador!</h2>
+            <h3 class="fs-2 text-center">Confira os requisitos básicos</h3>
+          </div>
+          <div class="row">
+            <div class="card-group">
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="../assets/images/documento.png"
+                  alt="Imagem de capa do card"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Documento</h5>
+                  <p class="card-text">
+                    Portar documento oficial de identidade com foto (identidade,
+                    carteira de trabalho, certificado de reservista ou carteira
+                    do conselho profissional).
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="../assets/images/16+.webp"
+                  alt="Imagem de capa do card"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Idade</h5>
+                  <p class="card-text">
+                    É necessário ter entre 16 (dezesseis) e 69 (sessenta e nove)
+                    anos. Menores de 18 (dezoito) anos só podem doar com
+                    consentimento formal dos responsáveis.
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="../assets/images/descanso.png"
+                  alt="Imagem de capa do card"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Descanso</h5>
+                  <p class="card-text">
+                    Ter dormido ao menos 6 (seis) horas antes da doação.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="card-group">
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="../assets/images/balanca.png"
+                  alt="Imagem de capa do card"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Peso</h5>
+                  <p class="card-text">
+                    É necessário pesar no mínimo 50kg (cinquenta quilos).
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="../assets/images/cafe-da-manha.png"
+                  alt="Imagem de capa do card"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Alimentação</h5>
+                  <p class="card-text">
+                    Não estar em jejum. Evitar apenas alimentos gordurosos nas
+                    três horas que antecedem a doação.
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="../assets/images/exameok.png"
+                  alt="Imagem de capa do card"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Estar bem de saúde</h5>
+                  <p class="card-text">
+                    Não ter doenças ou problemas de saúde.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <article id="beneficios" class="mt-5 container">
+        <h2 class="fs-1 mt-5 mb-3 text-center">
+          Confira alguns benefícios de ser um doador
+        </h2>
+        <p class="mt-3">
+          Doar sangue é um ato altruísta que pode salvar muitas vidas.
+          Acredita-se que uma única doação pode salvar entre 5 e 18 vidas. É
+          crucial para pessoas que sofrem de câncer, fraturas, doenças do
+          sangue, cirurgias, partos complicados e pacientes com anemia.
+          Portanto, se você atende aos requisitos para doar sangue, considere
+          fazer uma doação regularmente. É um gesto simples que pode fazer uma
+          grande diferença na vida de muitas pessoas. Além de trazer diversos
+          benefícios, além da sensação de bem-estar em ajudar!
+        </p>
+
+        <div class="row d-flex mt-5">
+          <div class="d-flex align-items-center justify-content-center">
+            <div class="p-2 w-100">
+              <img class="img-fluid" src="../assets/logo.png" alt="imagem" />
+            </div>
+            <div class="p-2 w-100">
+              <h2 class="fs-3">Diminui o risco de câncer</h2>
+              <p>
+                Segundo estudos, as pessoas que doam sangue uma ou duas vezes
+                por ano, têm menos risco de sofrer câncer, devido aos altos
+                níveis de ferro em seu sangue.
+              </p>
+              <h2 class="fs-3">Melhora o fluxo sanguíneo</h2>
+              <p>
+                Doar sangue nos ajuda a evitar a hipercoagulação e para que o
+                nosso sangue flua com mais facilidade. A hipercoagulação pode
+                gerar à ruptura dos nossos vasos sanguíneos, já que existem
+                agentes que podem fazer coagular o sangue como tabaco, estresse
+                ou excesso de açúcar em nossa dieta.
+              </p>
+            </div>
+          </div>
+          <div
+            class="d-flex mt-5 mb-5 align-items-center justify-content-center"
+          >
+            <div class="p-2 w-100">
+              <h2 class="fs-3">Check-up completo gratuito</h2>
+              <p>
+                Quando você doa sangue, recebe uma análise gratuita da sua
+                amostra, incluindo testes para detecção de hepatite B, hepatite
+                C, sífilis e HIV2. Isso pode ser útil na sua próxima consulta
+                médica.
+              </p>
+              <h2 class="fs-3">Rejuvenece o organismo</h2>
+              <p>
+                Doar sangue é um processo de rejuvenescimento. Como é reduzido o
+                nível de fluído, o corpo tende a gerar novas células, criando um
+                sangue novo, limpo e fresco.
+              </p>
+            </div>
+            <div class="p-2 w-100">
+              <img
+                class="img-fluid"
+                src="../assets/images/check-up.png"
+                alt="imagem"
+              />
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <footer class="footer">
+      <p class="fs-5 text-center">Projeto Doe+, uma iniciativa do coração!</p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

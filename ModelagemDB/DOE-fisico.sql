@@ -1,5 +1,3 @@
-/* DOE-logico: */
-
 CREATE TABLE Doador (
     Id int AUTO_INCREMENT PRIMARY KEY,
     Nome varchar(150) NOT NULL,
